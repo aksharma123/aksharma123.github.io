@@ -1,0 +1,298 @@
+body
+{
+    overflow-x:hidden;
+}
+.col_upper
+{
+    width: 100%;
+    height: 45%;
+    background: url(image/bg.png) no-repeat center center fixed; 
+    background-size: 100% auto;
+    background-size: cover;
+    
+
+}
+
+.mainpic
+{
+	margin-top: 13%;
+    height: 250px;
+    border-radius: 50%;
+    z-index:+3;
+}
+.header_text h1
+{
+    font-family: 'Kurale', serif;
+    font-size: 45px;
+    font-weight: bold;
+	color: #173753;
+    border: 3px;
+    margin-top: 10%;
+    letter-spacing: 1px;
+    word-spacing: 3px;  
+}
+.header_text h4
+{
+    font-family: 'Aclonica', sans-serif;
+	font-size: 20px;
+	color:#A1A1A1 ;
+}
+
+.navbar 
+{
+	margin: auto;
+    margin-top: 73px;
+	list-style: none;
+    align-content: center;
+	background-color: transparent !important;
+	width: 50%;
+}
+.navbar ul
+{
+
+	width: 100%;
+}
+.navbar ul li
+{
+	display: inline;
+    padding:3px;
+    font-size: 17px;
+	font-family: 'Karla', sans-serif;
+	font-weight: bold;
+    align-content: center;
+    width: 33.3%;
+}
+
+.navbar ul li a
+{
+    color: #878787;
+    letter-spacing: 3px;
+    align-content: center;
+}
+
+.about
+{
+    /*background: url(image/bgg.jpg); */
+    margin-top: 50px;
+    margin-left: 0px;
+	text-align: center;
+	padding: 50px;
+	padding-bottom: 70px;
+}
+.about h1, .skills h1
+{
+	font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	color:#2A628F;
+}
+.about hr
+{
+	border: 1.5px solid #F26419;
+	width: 20%;
+}
+.secondpic
+{
+	margin-top: 5%;
+    width: 250px;
+    z-index:+3;
+}
+.aboutme
+{
+	text-align: left;
+	color:#173753;
+	font-size: 20px;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	padding-right: 30px;
+	padding-left: 40px;
+	padding-top: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: 'Bookman Old Style';
+
+}
+
+.aboutme font
+{
+	color: #F26419;
+}
+.skills
+{
+	text-align: left;
+	background: url(image/bb.png);
+	background-size:100% 100%;
+	padding-top: 30px;
+	height:100%; 
+	font-family: 'Schoolbell', cursive;
+}
+.skill-set
+{
+	margin-top: 50px;
+}
+.skills p
+{
+	font-size: 40px;
+	text-align: left;
+	margin-top: 20px;
+	word-spacing: 7px;
+	letter-spacing: 2px;
+	color: white;
+	padding-left: 50px;
+}
+.skills img
+{
+    height: 20%;
+    width: 20%;
+    margin-left: 90px;
+    margin-top: 35px;
+
+    
+}
+.skills hr
+{
+	border: 1.5px solid #F26419;
+	width: 20%;
+}
+.skills h1
+{
+	font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	color: white;
+	text-align: center;
+}
+.skills .tech
+{
+    background-size: 100% 100%;
+}
+.skills .tech h3
+{
+    margin-left: 45px;
+    color: aliceblue;
+    font-weight: bold;
+}
+.tech img
+{
+	height: 80px;
+	width: auto;
+}
+.contactme
+{
+	padding-top: 50px;
+}
+.contact
+{
+	text-align: center;
+}
+.contact i
+{
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+.contact p
+{
+	font-family: 'Muli', sans-serif;
+	color: #7F7F7F;
+	margin-top: 10px;
+	font-size: 20px;
+}
+.txt-sml
+{
+	height: 60px;
+	width: 320;
+	margin: 20px;
+    padding:10px;
+    margin-left: 90px;
+	border: 1px solid #BFBFBF;
+	border-radius: 5px;
+	font-size: 17px;
+	box-shadow: 1px 1px 2px #BFBFBF;
+	font-family: 'Muli', sans-serif;
+}
+.txt-sml:focus
+{
+	outline: none;
+	border: 2px solid #1abc9c;
+}
+.txtarea
+{
+	width: 88%;
+	height: 40%;
+	margin: 20px;
+    margin-left: 90px;
+	padding:10px;
+	border: 1px solid #BFBFBF;
+	border-radius: 5px;
+	font-size: 17px;
+	box-shadow: 1px 1px 2px #BFBFBF;
+	font-family: 'Muli', sans-serif;
+}
+.txtarea:focus
+{
+	outline: none;
+	border: 2px solid #1abc9c;
+}
+.load-more
+{
+    font-family: 'Dancing Script', cursive;
+    height: 10%;
+	width: 25%;
+	background-color: #1abc9c;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 5px;
+	border:0px;
+}
+.smbtns
+{
+	height: 50px;
+	width: auto;
+	border: 0px;
+	color: white;
+	font-weight: bold;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-left: 5px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.contactme h1
+{
+	text-align: center;
+	font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	color:#2A628F;
+
+}
+.contactme
+{
+	
+	background-image: url(image/pattern-bg.png);
+}
+.footer
+{
+	margin-top: 30px;
+	background-image: url(image/pattern-bg.png);
+	height: 250px;
+	text-align: center;
+	padding-top: 50px;
+}
+.footer p
+{
+	color: #9c9c9c;
+	font-size: 17px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.footer h4
+{
+	color: #616161;
+	margin-top: 20px;
+	font-weight: bold;
+}
